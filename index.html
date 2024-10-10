@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeAdrift</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Globe Adrift</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-toggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-bar">
+        <p id="para" style="text-align: right;" onclick="closeN()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--Header Slids-->
+    <div style="background-image: url(.//vVY8PJ.jpg);" class="bg">
+    <div class="opacity"></div>
+    <div class="slider">
+        <div class="slider-container">
+            <div class="item" style="background-image: url(.//anuradhapura.jpg);">
+                <div class="content"> 
+                 <div class="country">Anuradhapura</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//Ella-train.jpg.webp);">
+                <div class="content"> 
+                 <div class="country">Ella</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//Galle.jpg);">
+                <div class="content"> 
+                 <div class="country">Galle</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//Nuwara-Eliya\ \(1\).jpg);">
+                <div class="content"> 
+                 <div class="country">Nuwara-Eliya</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//kandy.jpg);">
+                <div class="content"> 
+                 <div class="country">Kandy</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//jaffna.jpg);">
+                <div class="content"> 
+                 <div class="country">Jaffna</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+            <div class="item" style="background-image: url(.//negombo.avif);">
+                <div class="content"> 
+                 <div class="country">Negombo</div>
+                 <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex!</div>
+             </div>
+            </div>
+        </div>
+    </div> 
+    </div>
+
+
+    <div class="bt">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <!--Services-->
+
+    <div class="service">
+        <div class="service-count-1">
+            <div>
+                <h1>We Provide Best</h1>
+                <h1>Customer Experience</h1>
+            </div>
+
+            <div>
+                <p>|| we ensure that our Tourist have the best Travelling experience </p>
+            </div>
+        </div>
+
+        <div class="service-count-2">
+            <div>
+                <i class="fa-solid fa-id-card"></i>
+                <h4>VISA APPLICAITON</h4>
+                <p>We will facilitate you get the competent Air Fare Deals offered in the country...</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-plane"></i>
+                <h4>AIR TICKETS</h4>
+                <p>We do assist our clienteles in their Visa Application process to explore a different nation...</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h4>TOURS & SAFARIS</h4>
+                <p>Derive advantage of our familiarity in originating attractive & remarkable Tours & Safari Skills in
+                    Sri Lanka...</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Travel is Begin-->
+    <div class="headingtag">
+        <h2 style="padding: 10px; font-size: 30px;">Popular Destination</h2>
+        <h4 style="padding-bottom:5px; color: rgb(113, 113, 113);">World Best Tourist Destinations</h4>
+        <div class="travel">
+            <div class="travel-container">
+                <img src="nine-arch-bridge.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="kalutara.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="kandy.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="negombo.avif" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 style="padding: 20px;">Colombo Tour Package</h2>
+        <div class="travel">
+            <div class="travel-container">
+                <img src="nine-arch-bridge.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="nine-arch-bridge.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="nine-arch-bridge.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="travel-container">
+                <img src="nine-arch-bridge.jpg" alt="" width="300" height="200">
+                <button>TRAVEL NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="news">
+        <h2> JOIN OUR NEWS LETTER</h2>
+        <p>Warmly Welcome New Member! to SignUp for Our E-mail to Get Exclusive Discount and Grab You're Future
+            Packages...</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+
+        <div>
+            <button>SUBSCRIBE <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div style="background-image: url(Nuwara-Eliya\ \(1\).jpg);" id="bgimg">
+    <div class="footer">
+        <div class="footer-container">
+            <h2 class="heading-text">Globe Adrift</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum officia ipsa ex animi veniam, eaque
+                quisquam fuga accusamus maxime magni natus reprehenderit aperiam aliquid ad neque quis itaque inimpedit.
+            </p>
+        </div>
+            <div class="footer-icon-box">
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: rgb(186, 255, 189);"></i>
+                    <i class="fa-brands fa-facebook" style="color: rgb(186, 255, 189);"></i>
+                    <i class="fa-brands fa-twitter" style="color: rgb(186, 255, 189);"></i>
+                    <i class="fa-brands fa-tiktok" style="color: rgb(186, 255, 189);"></i>
+                </div>
+            </div>
+
+        <div class="about-details">
+            <div>
+                <h4>Address :</h4>
+                <p>C/7/12, Henamulla Road, Colombo - 01500</p>
+                <p>P.O. Box 01500 Colombo. Near By Arpico</p>
+            </div>
+            <div>
+                <h4>E-mail :</h4>
+                <p>info@Globeadrift.com</p>
+                <p>inquiries@Globeadrift.com</p>
+            </div>
+
+            <div>
+                <h4>Contact :</h4>
+                <p>+94 77 111 1212</p>
+                <p>+94 77 980 1523</p>
+            </div>
+        </div>
+
+        <p id="text">@2024 Globeadrift.com</p>
+    </div>
+</div>
+
+    <!--JavaScript-->
+    <script src="app.js"></script>
+    <script src="travelscript.js"></script>
+</body>
+
+</html>

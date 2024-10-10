@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeAdrift</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    </head>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Globe Adrift</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-toggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-bar">
+        <p id="para" style="text-align: right;" onclick="closeN()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--Contact Form-->
+    <div class="contactfm">
+        <div class="travel-frm">
+            <h1>Contact Form</h1>
+            <form action="details form.php" method="post" class="cform">
+                <label>Name :</label><input type="text" id="Name" name="Name" placeholder="Enter the Name"><br>
+                <label>Number :</label><input type="text" id="Number" name="Number" placeholder="Enter the Number"><br>
+                <label>Date of Birth :</label><input type="date" id="Birthday" name="Birthday"
+                    placeholder="Enter the DOB"><br>
+                <label>Select Your File :</label><input type="file" id="file" name="image"
+                    placeholder="Choose File"><br>
+                <label>Packages :</label><select name="Packages">
+                    <option value="Kandy">Kandy</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Negombo">Negombo</option>
+                    <option value="Southern Province">Southern Province</option>
+                    <option value="Anuradhapura">Anuradhapura</option>
+                    <option value="Galle">Galle</option>
+                    <option value="Ella">Ella</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value=">Sigiriya">Sigiriya</option>
+
+                </select><br>
+                <label>Email :</label><input type="text" id="Email" name="Email" placeholder="Enter the Email"><br>
+                <div class="submit-button">
+                    <button type="submit" value="Submit">Submit</button><button type="reset"
+                        value="Resert">Resert</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+     <!--Footer-->
+     <div style="background-image: url(Nuwara-Eliya\ \(1\).jpg);" id="bgimg">
+        <div class="footer">
+            <div class="footer-container">
+                <h2 class="heading-text">Globe Adrift</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum officia ipsa ex animi veniam, eaque
+                    quisquam fuga accusamus maxime magni natus reprehenderit aperiam aliquid ad neque quis itaque inimpedit.
+                </p>
+            </div>
+                <div class="footer-icon-box">
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram" style="color: rgb(186, 255, 189);"></i>
+                        <i class="fa-brands fa-facebook" style="color: rgb(186, 255, 189);"></i>
+                        <i class="fa-brands fa-twitter" style="color: rgb(186, 255, 189);"></i>
+                        <i class="fa-brands fa-tiktok" style="color: rgb(186, 255, 189);"></i>
+                    </div>
+                </div>
+    
+            <div class="about-details">
+                <div>
+                    <h4>Address :</h4>
+                    <p>C/7/12, Henamulla Road, Colombo - 01500</p>
+                    <p>P.O. Box 01500 Colombo. Near By Arpico</p>
+                </div>
+                <div>
+                    <h4>E-mail :</h4>
+                    <p>info@Globeadrift.com</p>
+                    <p>inquiries@Globeadrift.com</p>
+                </div>
+    
+                <div>
+                    <h4>Contact :</h4>
+                    <p>+94 77 111 1212</p>
+                    <p>+94 77 980 1523</p>
+                </div>
+            </div>
+    
+            <p id="para">@2024 Globeadrift.com</p>
+        </div>
+    </div>
+    
+    <!--JavaScript-->
+    <script src="travelscript.js"></script>
+    <script src="collections.js"></script>
+</body>
+
+</html>
